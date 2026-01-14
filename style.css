@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: "Tajawal", sans-serif;
+    background: #bff3e0; /* mint green */
+    color: #000;
+    text-align: center;
+}
+
+.container {
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    margin-bottom: 30px;
+}
+
+.frame-box {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 16px;
+    margin: 20px auto;
+    width: 540px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+canvas {
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    background: #eee;
+    display: block;
+    margin: 0 auto 15px;
+    touch-action: none;
+}
+
+input[type="file"] {
+    margin-bottom: 10px;
+}
+
+button {
+    background: #1e8f6a;
+    color: #fff;
+    border: none;
+    padding: 10px 22px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
