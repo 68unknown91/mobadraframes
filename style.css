@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: "Tajawal", sans-serif;
-    background: #bff3e0; /* mint green */
+    background: #bff3e0;
     color: #000;
     text-align: center;
 }
@@ -12,14 +12,32 @@ body {
 
 /* العنوان */
 h1 {
-    margin: 0 auto 30px;
+    margin: 0 auto 15px;
     max-width: 900px;
-    text-align: center;  /* يضمن التوسيط للنص على كل الشاشات */
+    text-align: center;
     font-weight: bold;
     line-height: 1.5;
 }
 
-/* صندوق كل إطار */
+/* نص الحديث */
+.hadith {
+    font-size: 18px;
+    line-height: 1.7;
+    max-width: 800px;
+    margin: 0 auto 30px;
+    text-align: center;
+    font-style: italic;
+}
+
+/* مصدر الحديث */
+.hadith .source {
+    display: block;
+    margin-top: 8px;
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+/* صندوق الإطار */
 .frame-box {
     background: #ffffff;
     padding: 20px;
