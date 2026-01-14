@@ -10,14 +10,16 @@ body {
     padding: 20px;
 }
 
+/* العنوان */
 h1 {
-    margin-bottom: 10px;
+    margin: 0 auto 30px;
+    max-width: 900px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 1.5;
 }
 
-.subtitle {
-    margin-bottom: 30px;
-}
-
+/* صندوق كل إطار */
 .frame-box {
     background: #ffffff;
     padding: 20px;
